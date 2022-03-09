@@ -27,7 +27,6 @@ body{
 .intro{
     margin: 46px 65px 49px 16px;
     display: flex;
-    border: 0.3px solid black;
     max-width: 531px;
 }
 
@@ -64,7 +63,8 @@ body{
     margin-bottom: 5px;
 }
 
-.intro-left__pic
+.intro-left__pic,
+.desc-right__pic
 {
     vertical-align: middle;
     justify-self: center;
@@ -109,10 +109,10 @@ body{
 
 .desc-right{
     display: flex;
+    flex-direction: column;
     width: 225px;
     margin-right: 13px;
     margin-bottom: 99px;
-    border: 1px solid black;
 }
 
 .desc__title{
@@ -129,6 +129,7 @@ body{
     font-family: IBMPlexSans;
     background-image: linear-gradient(98deg, #ff26b2 0%, #851bd9 64%, #3f0fff 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 9px;
     margin-bottom: 2px;
@@ -156,13 +157,52 @@ body{
 .desc__seperator{
     width: 342px;
     height: 0.5px;
-    margin: 2.5px 0 6px 0;
-    flex-grow: 0;
+    margin: 4.5px 0 6px 0;
     background-color: #999;
     border: none;
-
 }
 
 .desc__occupancy{
     margin-bottom: 4px;
+}
+
+.desc__tasks--skills{
+    margin-bottom: 22px;
+}
+
+.desc__seperator--right{
+    width: 222px;
+    height: 0.5px;
+    margin: 4.5px 0 6px 0;
+    background-color: #999;
+    border: none;
+}
+
+.desc__title--lan{
+    margin-top: 14px;
+    margin-bottom: 7px;
+}
+
+.desc__title--projects{
+    margin-top: 30px;
+    margin-bottom: 7px;
+}
+
+.desc-right__link{
+    font-family: IBMPlexSans-Bold;
+    font-size: 10px;
+    text-decoration: underline;
+}
+
+.desc-right__pic{
+    width: 12px;
+    height: 12px;
+}
+
+.desc-right__link-container{
+    margin-top: 10px;
+}
+
+.desc__firm--mar{
+    margin-top: 3px;
 }
