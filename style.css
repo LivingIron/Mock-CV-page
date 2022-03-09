@@ -212,3 +212,7 @@ body{
 .desc__firm--mar{
     margin-top: 3px;
 }
+
+.desc__period--mar{
+    margin-bottom: 4px;
+}
