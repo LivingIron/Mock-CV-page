@@ -1,4 +1,7 @@
 
+
+/*=============================General css==============================*/
+
 *{
     margin: 0px;
     padding: 0px;
@@ -24,13 +27,13 @@ body{
     margin: auto;
 }
 
+/*=============================CSS for Intro container==============================*/
+
 .intro{
     margin: 46px 65px 49px 16px;
     display: flex;
     max-width: 531px;
 }
-
-
 .intro-left{
     max-width: 342px;
 }
@@ -95,6 +98,9 @@ body{
     height: 125px;
     
 }
+
+/*=============================CSS for Desc container==============================*/
+
 .desc{
     display: flex;
 }
