@@ -1,0 +1,95 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: IBMPlexSans-Bold;
+    src: url(./assets/fonts/IBMPlexSans-Bold.ttf);
+}
+@font-face {
+    font-family: IBMPlexSans;
+    src: url(./assets/fonts/IBMPlexSans-Regular.ttf);
+}
+
+body{
+    max-width: 612px;
+    max-height: 792px;
+    border: 0.2px solid rgb(163, 160, 160);
+    justify-self: center;
+    margin: auto;
+}
+
+.intro{
+    margin: 46px 65px 49px 16px;
+    display: flex;
+    border: 0.3px solid black;
+    max-width: 531px;
+}
+
+
+.intro-left{
+    max-width: 342px;
+}
+.intro-left__name{
+    font-family: IBMPlexSans-Bold;
+    font-size: 44px;
+    color:#222;
+}
+.intro-left__occupation{
+    font-family: IBMPlexSans-Bold;
+    font-size: 12px;
+    background-image: linear-gradient(94deg, #ff26b2 0%, #851bd9 64%, #3f0fff 100%);
+    -webkit-background-clip: text;   
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 14px;
+    
+}
+.intro-left__short-desc{
+    font-family: IBMPlexSans;
+    font-size: 10px;
+    margin-bottom: 14px;
+}
+
+.intro-left__email{
+    font-family: IBMPlexSans;
+    font-size: 9px;
+    color: #222;
+    height: 12px;
+    align-self: center;
+    margin-bottom: 5px;
+}
+
+.intro-left__pic
+{
+    vertical-align: middle;
+    justify-self: center;
+    margin-right: 2px;
+}
+
+.intro-left_list{
+    display: flex;
+    list-style: none;
+    margin-top: 5px;
+}
+
+.intro-left_item{
+    font-size: 9;
+    font-family: IBMPlexSans;
+    text-decoration: underline; 
+    height: 12px;
+    margin-right: 28px;
+}
+
+.intro-right{
+    margin-top: 16px;
+    margin-left: 64px;
+}
+
+.intro-right__avatar{
+    width: 125px;
+    height: 125px;
+    
+}
+
