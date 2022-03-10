@@ -1,6 +1,5 @@
 # Mock-CV-page
-
-![изображение](https://user-images.githubusercontent.com/29221743/157616920-9bbde296-5d61-4ee8-9a14-82b4b5cd8f24.png)
+![изображение](https://user-images.githubusercontent.com/29221743/157617008-425cb621-1c43-4fb0-ac01-acbef549a9a1.png)
 
 
 
